@@ -29,17 +29,6 @@ A quick look at the top-level files and directories you'll see in this project
 
     .
     ├── src
-        ├── api
-        ├── assets
-        ├── components
-        ├── containers
-        ├── features
-        ├── store
-        ├── themes
-        ├── app.jsx
-        ├── index.html
-        ├── index.jsx
-        ├── index.scss
     ├── .babelrc.js
     ├── .env
     ├── .eslintignore
@@ -56,8 +45,8 @@ A quick look at the top-level files and directories you'll see in this project
     ├── webpack.prod.js
 
 
-1.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) 
-such as your site header or a page template. `src` is a convention for “source code” (we will dive deep in this folder structure [here](https://link)).
+1.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your report/dashboard (what you see in the browser) 
+such as your report/dashboard header or a page template. `src` is a convention for “source code” (we will dive deep in this folder structure [here](https://link)).
 
 2.  **`.babelrc.js`**: This is a configuration js file for [Babel](https://babeljs.io/). Babel is a toolchain that is mainly used to convert ECMAScript 2015+ 
 code into a backwards compatible version of JavaScript in current and older browsers or environments.
