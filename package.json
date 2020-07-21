@@ -6,7 +6,7 @@
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack-dev-server --open --config webpack.dev.js",
     "dev-odoo": "webpack-dev-server --open --config webpack.dev.odoo.js",
-    "copy": "cpx 'dist/**' ../<path/to/module>/static/js/lib/"
+    "copy": "cpx 'dist/**' ../<path-to-module>/static/js/lib/"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +24,7 @@
     "babel-plugin-transform-imports": "^2.0.0",
     "clean-webpack-plugin": "^3.0.0",
     "compression-webpack-plugin": "^4.0.0",
+    "cpx": "^1.5.0",
     "css-loader": "^3.6.0",
     "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
