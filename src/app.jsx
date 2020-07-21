@@ -1,7 +1,11 @@
 import React from 'react';
 
 const App = () => {
-  return <></>;
+  return (
+    <>
+      <h1>Hello Odoo from React</h1>
+    </>
+  );
 };
 
 export default App;

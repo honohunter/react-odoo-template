@@ -10,7 +10,6 @@ console.log('__DEVMODE__', __DEVMODE__);
 
 const OdooDev = {
   new: (lang, selector, odooWidget) => {
-    // const { _t } = odooWidget.core;
     return {
       render: () => {
         ReactDOM.render(<App lang={lang} odooWidget={odooWidget} />, document.querySelector(selector));

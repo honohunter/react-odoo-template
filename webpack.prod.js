@@ -22,7 +22,7 @@ module.exports = merge(common, {
   // },
   output: {
     chunkFilename: '[name].bundle.js',
-    publicPath: '/mrp_dashboard/static/js/lib/',
+    publicPath: `/${process.env.ODOO_MODULE_NAME}/static/js/lib/`,
   },
   mode: 'production',
   devtool: 'source-map',

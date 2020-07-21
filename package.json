@@ -6,7 +6,7 @@
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack-dev-server --open --config webpack.dev.js",
     "dev-odoo": "webpack-dev-server --open --config webpack.dev.odoo.js",
-    "copy": "cpx 'dist/**' ../<path-to-module>/static/js/lib/"
+    "copy": "cpx 'dist/**' ../<path/to/module>/static/js/lib/"
   },
   "keywords": [],
   "author": "",
