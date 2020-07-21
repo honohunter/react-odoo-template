@@ -2,6 +2,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 
+require('dotenv').config();
+
 module.exports = {
   entry: {
     app: ['./src/index.jsx'],
@@ -12,14 +14,13 @@ module.exports = {
       template: './src/index.html',
       filename: './index.html',
     }),
-
   ],
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     libraryTarget: 'umd',
     globalObject: 'this',
-    library: ['mrpDash'],
+    library: [process.env.LIB_NAME],
     libraryExport: 'default',
   },
   module: {
